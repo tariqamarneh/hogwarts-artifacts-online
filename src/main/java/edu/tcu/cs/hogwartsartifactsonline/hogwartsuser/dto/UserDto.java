@@ -10,7 +10,7 @@ public record UserDto (
 
         boolean enabled,
 
-        @NotEmpty(message = "roles is required.")
+        @NotEmpty(message = "roles are required.")
         String roles){
 
 }
